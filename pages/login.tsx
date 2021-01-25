@@ -73,7 +73,7 @@ export default function Login_pages({}: Props): ReactElement {
                     <Button type="primary" htmlType="submit"  style={{marginLeft: '6vw',marginRight: '4vw'}}>
                         Login
                     </Button>
-                    <Button type="danger" onClick={() => routers.push('/register')} htmlType="button">
+                    <Button type="primary" onClick={() => routers.push('/register')} htmlType="button">
                         Registarza
                     </Button>
                 </Form.Item>
